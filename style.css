@@ -1,0 +1,62 @@
+.mainfont {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@font-face {
+    font-family: Junicode;
+    src: url(assets/junicode.woff2) format(woff2);  
+    font-weight: 600;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    border-bottom: rgb(31, 41, 55) 1px solid;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.header-right a{
+    text-decoration: none;
+    font-family: Bricolage Grotesque;
+    padding: 5px;
+    font-size: 23px;
+    align-items: center;
+}
+
+.github-page{
+      width: 250px;
+      border-radius: 100px;
+      padding: 7px; 
+      border: 2px solid rgba(255,255,255,0.15);
+      background: rgba(255,255,255,0.05);;
+}
+
+.github-page:hover{
+    background-color: #101828;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient();
+    background-color: #101828;
+}
+
+h1 {
+    font-family: Junicode;
+    color: #D1CFC0;
+    font-size: 50px;
+    text-align: center;
+}
