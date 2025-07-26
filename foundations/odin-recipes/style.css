@@ -28,7 +28,8 @@ ul li {
 
 ul a {
     color: #E4D9FF;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #C39149;
     font-size: 24px;
 }
 
