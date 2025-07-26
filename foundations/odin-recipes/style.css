@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: oklch(21% 0.034 264.665);
+}
+h1 {
+    margin: 32px;
+    font-size: 48px;
+    text-align: center;
+    color: #FAFAFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+ul li {
+    margin: 52px 700px;
+    color: #C39149;
+}
+
+ul a {
+    color: #E4D9FF;
+    text-decoration: none;
+    font-size: 24px;
+}
