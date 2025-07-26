@@ -27,8 +27,9 @@ a {
 }
 
 img {
+    display: inline-block;
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 40px;
 }
 
 h3 {
@@ -45,9 +46,21 @@ p, ul, li, ol {
     margin: 15px 30px;
 }
 
-div {
+p {
+    line-height: 1.5;
+}
+
+.ingredients {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bottom-text {
+    display: block;
     text-align: center;
-    margin: 24px 0;
+    margin: 128px 0 0;
     opacity: 50%;
     color: #7180AC;
 }
