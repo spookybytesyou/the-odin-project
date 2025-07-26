@@ -25,3 +25,29 @@ a {
     text-decoration-color: #C39149;
     display: inline-block;
 }
+
+img {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+h3 {
+    color: #FAFAFF;
+    text-decoration: underline;
+    text-decoration-color: #C39149;
+    margin: 20px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 28px;
+}
+p, ul, li, ol {
+    color: #E4D9FF;
+    margin: 15px 30px;
+}
+
+div {
+    text-align: center;
+    margin: 24px 0;
+    opacity: 50%;
+    color: #7180AC;
+}
