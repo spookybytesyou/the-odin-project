@@ -23,8 +23,9 @@ h1 {
 
 a {
     color: #E4D9FF;
-    margin-top: 32px;
+    margin-top: 24px;
     margin-left: 32px;
+    margin-bottom: 14px;
     text-decoration: underline;
     text-decoration-color: #C39149;
     display: inline-block;
