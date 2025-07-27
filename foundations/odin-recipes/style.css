@@ -7,6 +7,14 @@
 html, body {
     background-color: oklch(21% 0.034 264.665);
 }
+
+.container {
+    text-align: center;
+}
+
+.container ul {
+}
+
 h1 {
     margin: 38px;
     font-size: 48px;
@@ -18,11 +26,16 @@ h1 {
 
 ul {
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 100px;
+    margin-top: 6px;
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    position: relative;
+    left: -120px;
 }
 
 ul li {
-    margin: 52px 700px;
+    margin: 52px;
     color: #C39149;
 }
 
