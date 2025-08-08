@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    margin-bottom: 400px; /* REMOVE ME */
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin-right: 200px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
