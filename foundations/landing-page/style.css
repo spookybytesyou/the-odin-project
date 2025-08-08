@@ -6,7 +6,6 @@
 }
 
 header {
-    margin-bottom: 400px; /* REMOVE ME */
     display: flex;
     justify-content: space-between;
     padding: 8px;
@@ -30,6 +29,23 @@ header {
 
 li a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    margin-bottom: 400px; /* REMOVE ME */
+    background-color: #1f2937;
+    display: flex;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9f8fa;
+}
+
+.hero-desc {
     font-size: 18px;
     color: #e5e7eb;
 }
