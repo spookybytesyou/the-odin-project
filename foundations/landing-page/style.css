@@ -8,7 +8,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 16px;
     background-color: #1f2937;
     align-items: center;
 }
@@ -36,16 +36,40 @@ li a {
 .hero {
     margin-bottom: 400px; /* REMOVE ME */
     background-color: #1f2937;
+    padding: 125px 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-main {
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    height: 250px;
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #f9f8fa;
+    width: 500px;
 }
 
 .hero-desc {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 30px;
+    border-radius: 8px;
+    border: 0;
 }
