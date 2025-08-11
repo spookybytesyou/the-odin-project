@@ -193,3 +193,10 @@ img {
     border: 2px solid white;
     border-radius: 8px;
 }
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #1f2937;
+    color: #fff;
+}
