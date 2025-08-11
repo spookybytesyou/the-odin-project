@@ -105,3 +105,9 @@ button {
     height: 175px;
     flex: 0 1 auto;
 }
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
