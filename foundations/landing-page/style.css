@@ -118,8 +118,21 @@ img {
     object-fit: cover;
 }
 
-p {
+.img-desc p {
     width: 175px;
     text-align: center;
     color: #1f2937;
+}
+
+.quote {
+    padding: 120px 0;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-main p {
+    font-size: 36px;
+    font-weight: 300;
+    width: 1200px;
 }
