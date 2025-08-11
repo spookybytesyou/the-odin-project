@@ -34,17 +34,16 @@ li a {
 }
 
 .hero {
-    margin-bottom: 400px; /* REMOVE ME */
     background-color: #1f2937;
-    padding: 125px 0;
+    padding: 90px 0 120px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 60px;
+    align-items: flex-start;
+    gap: 80px;
 }
 
 .hero-main {
-    width: 475px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
