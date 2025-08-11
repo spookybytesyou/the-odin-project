@@ -80,8 +80,7 @@ button {
 }
 
 .info {
-    margin-bottom: 400px; /* REMOVE ME */
-    padding: 50px 0;
+    padding: 50px 0 120px;
 }
 
 .info-title {
@@ -102,6 +101,7 @@ button {
 .info-box {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 .info-img {
@@ -121,4 +121,5 @@ img {
 p {
     width: 175px;
     text-align: center;
+    color: #1f2937;
 }
