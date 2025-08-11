@@ -125,14 +125,29 @@ img {
 }
 
 .quote {
-    padding: 120px 0;
+    padding: 120px 0 90px;
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
 }
 
+.quote-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    gap: 30px;
+}
+
 .quote-main p {
     font-size: 36px;
     font-weight: 300;
-    width: 1200px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-right: 40px;
+    font-size: 24px;
+    font-weight: bold;
 }
