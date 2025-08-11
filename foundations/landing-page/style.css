@@ -96,6 +96,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info-box {
@@ -103,7 +104,6 @@ button {
     border-radius: 20px;
     width: 175px;
     height: 175px;
-    flex: 0 1 auto;
     overflow: hidden;
 }
 
